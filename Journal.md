@@ -6,4 +6,4 @@ I used the super cell to send the item name and value to the VaultItem construct
 Phase-3:
 It effects my subclass because FragileItem is calling the VaultItem constructor using super(). If their is a invalid value entered when creating a FragileItem, the InvalidItemValueException will be able to thrown. Its a good way because it prevents the items with a value of $0 or less from entering the system.
 Phase-4:
-
+The selection sort has the worst case. This measns that the number of comparisons increased the with the number of items. If we would of doubled the items, the number of the comparisons would increase about four times. The selection sort works by repeating the smallest item and moving it towards the correct position.

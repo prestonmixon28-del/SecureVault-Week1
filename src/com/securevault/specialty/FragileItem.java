@@ -14,6 +14,6 @@ public class FragileItem extends VaultItem {
 
     @Override
     public String toString(){
-        return String.format("Item: %, Value: $%.2f, wrapped: %b", getItemName(), getItemValue(), isWrapped);
+        return String.format("Item: %s, Value: $%.2f, wrapped: %b", getItemName(), getItemValue(), isWrapped);
     }
 }
